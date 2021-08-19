@@ -8,12 +8,16 @@ body{
     letter-spacing: 0.03em;
     line-height: 1.55em;
 }
+*{
+    box-sizing: border-box;
+}
 p{
     letter-spacing: 0.03em;
     line-height: 1.55em;
 }
 h1,h2,h3,h4,h5,h6{
-    font-weight: 700px;
+    font-weight: 400px;
+    line-height: 1.4em;
     padding: 0;
     margin: 0;
 }
@@ -37,4 +41,37 @@ h1,h2,h3,h4,h5,h6{
 a{
     color: #000;
     text-decoration: none;
+}
+
+.offer{
+
+}
+.place{
+    font-style: 18px;
+}
+.offer-title{
+    font-style: 45px; 
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+.desc{
+    font-style: 18px;
+    margin-bottom: 21px;
+}
+.btn{
+    color: #fff;
+    background: #6a85e3;
+    font-style: 18px;
+    padding: 18px 30px;
+    font-weight: 700px;
+    display: block;
+    width: 195px;
+    text-align: center;
+}
+.btn:hover{
+    background: #3859cf;
+}
+.intro{
+    background: #eaeaea;
+    padding: 30px;
 }
