@@ -5,3 +5,12 @@ body{
     font-family: 'Vollkorn', serif;
     font-weight: 400;
 }
+.container{
+    width: 1110px;
+    margin: 0px auto;
+    /* border: 2px red solid; */
+}
+.logo{
+    width: 52px;
+    height: 48px;
+}
